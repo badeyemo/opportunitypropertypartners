@@ -136,6 +136,52 @@ span {
     margin: 10px 0;
 }
 
+/* &&&&&&&&& Fourth Section starts here&&&&&&&& */
+
+.fourthsection {
+    background: var(--gray-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.fourthsection-leftdiv,
+.fourthsection-rightdiv {
+    width: 350px;
+    height: 460px;
+}
+
+.fourthsection-leftdiv{
+    width: 310px;
+    height: 400px;
+    background: var(--gray-color);
+    padding: 40px 25px;
+}
+
+.fourthsection-leftdiv p{
+    margin: 10px 0;
+
+}
+
+
+.fourthsection-leftdiv h4 {
+    margin-top: 150px;
+}
+
+.fourthsection-rightdiv {
+    background: var(--main-color);
+    padding: 30px 25px;
+
+}
+
+.fourthsection-rightdiv p{
+    margin: 10px 0;
+}
+
 /* ==== Footer section starts here ==== */
 
 .footer {
@@ -158,10 +204,3 @@ span {
 
 
 /* ==== Footer section ends here ==== */
-
-
-
-
-
-
-
